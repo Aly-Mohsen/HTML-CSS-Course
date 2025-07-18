@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(61, 57, 94);
+    color: rgb(235, 235, 184);
+}
+h1,
+p {
+    text-align: center;
+}
+
+form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+label {
+    width: 100%;
+
+}
+
+input {
+    width: 100%;
+    background-color: rgb(61, 57, 94);
+    color: rgb(235, 235, 184);
+}

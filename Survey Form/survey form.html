@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <h1 id="title">Survey Form</h1>
+  <p id="description"> Survey Form about bla bla bla</p>
+  <form method="post" id="survey-form">
+    <label id="name-label" for="name">Name<input name="name" type="text" placeholder="Enter your name" required></label>
+    <label id="email-label" for="email">Email<input name="email" type="email" placeholder="Enter your email"
+        required></label>
+    <label id="numer-label" for="number">Age(optional)<input min="10" max="120" name="age" type="number"
+        placeholder="Enter your age"></label>
+    <label for="dropdown">Do you Agree?</label>
+    <select name="agree" id="dropdown">
+      <option value="yes">Yes</option>
+      <option value="no">No</option>
+    </select>
+    <fieldset>
+      <legend>Select one</legend>
+      <label for="choice-one"><input id="choice-one" type="radio" name="choice-one" class="inline" checked /> Choice
+        One</label>
+      <label for="choice-two"><input id="choice-two" type="radio" name="choice-two" class="inline" />
+        Choice Two</label>
+      <label for="choice-three"><input id="choice-three" type="radio" name="choice-three" class="inline" checked />
+        Choice Three</label>
+      <label for="choice-four"><input id="choice-four" type="radio" name="choice-four" class="inline" />
+        Choice Four</label>
+    </fieldset>
+    <fieldset>
+      <legend>Select multiple</legend>
+      <label for="terms-and-conditions">
+        <input class="inline" id="Check-one" type="checkbox" required name="Check-one" />
+        Choice One
+      </label>
+      <label for="terms-and-conditions">
+        <input class="inline" id="Check-two" type="checkbox" required name="Check-two" />
+        Choice Two
+      </label>
+      <label for="terms-and-conditions">
+        <input class="inline" id="Check-three" type="checkbox" required name="Check-three" />
+        Choice Three
+      </label>
+      <label for="terms-and-conditions">
+        <input class="inline" id="Check-four" type="checkbox" required name="Check-four" />
+        Choice Four
+      </label>
+    </fieldset>
+    </label>
+    <label for="comments">Comments</label>
+    <textarea name="comments" id="comments" placeholder="Enter your comments here"></textarea>
+    <input type="submit" value="Submit" />
+  </form>
+</body>
+
+</html>
