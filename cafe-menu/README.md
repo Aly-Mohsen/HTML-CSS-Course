@@ -26,7 +26,7 @@ README.md
 
 ## 📸 Preview
 
-![Cafe Menu Screenshot](./Capture.png)
+![Cafe Menu Screenshot](Capture.png)
 
 
 ## 📬 Contact
